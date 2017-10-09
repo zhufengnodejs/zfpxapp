@@ -1,0 +1,55 @@
+.home-header{
+  background-color: #2A2A2A;
+  position: fixed;
+  left:0;
+  top:0;
+  width:100%;
+  .header-menu{
+    display: flex;
+    height:56px;
+    justify-content: space-between;
+    align-items: center;
+    img{
+      height:30px;
+      width:105px;
+      margin-left:2.5%;
+    }
+    div{
+      margin-right:2.5%;
+    }
+    i{
+      color:#FFF;
+    }
+  }
+  .menu-list{
+    background-color: #2A2A2A;
+    position: absolute;
+    width:100%;
+    top:56px;
+    left:0;
+    li{
+      border-top:1px solid #464646;
+      height:43px;
+      line-height: 43px;
+      text-align: center;
+      color:#FFF;
+    }
+  }
+}
+.fadeIn-enter {
+  opacity: 0.01;
+}
+
+.fadeIn-enter.fadeIn-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fadeIn-exit {
+    opacity: 1;
+}
+
+.fadeIn-exit.fadeIn-exit-active {
+      opacity: 0.01;
+      transition: opacity 500ms ease-in;
+    }
