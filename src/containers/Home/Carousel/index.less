@@ -1,0 +1,23 @@
+.sliders{
+  position: relative;
+  .dots{
+    position: absolute;
+    bottom: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    span{
+      margin-left:5px;
+      display:inline-block;
+      width:10px;
+      height:10px;
+      border-radius: 50%;
+      background-color: #FFF;
+      &.active{
+        background-color: #CCC;
+      }
+
+    }
+  }
+}
