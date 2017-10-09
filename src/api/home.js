@@ -7,6 +7,6 @@ export const getSliders = ()=>{
   return get('/sliders');
 }
 
-export const getLessons = ()=>{
-  return get('/lessons');
+export const getLessons = (offset,limit)=>{
+  return get(`/lessons?offset=${offset}&limit=${limit}`);
 }

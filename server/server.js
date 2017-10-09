@@ -24,5 +24,10 @@ app.get('/sliders', function (req, res) {
 });
 app.get('/lessons', function (req, res) {
   let {offset,limit} = req.query;
-  res.json(lessons);
+  let clonedLessons = JSON.parse(JSON.stringify(lessons));
+  let list = clonedLessons.list;
+  for(let i=1;i<=list.length;i++){
+    list[i-1].name = `${parseInt(offset)+i}-${list[i-1].name}`;
+  }
+  res.json(clonedLessons);
 });

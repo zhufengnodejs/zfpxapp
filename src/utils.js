@@ -8,6 +8,7 @@ export function scroll(element,callback){
       let winHeight = element.clientHeight;
       let contentHeight = element.scrollHeight;
       let scrollTop = element.scrollTop;
+      localStorage.setItem('scrollTop',scrollTop);
       if(winHeight+scrollTop+10>contentHeight){
         callback();
       }
