@@ -15,9 +15,9 @@ app.use(function (req, res, next) {
   }
 });
 app.use(function(req,res,next){
-  setTimeout(function(){
+  //setTimeout(function(){
     next();
-  },2000);
+  //},2000);
 });
 app.get('/sliders', function (req, res) {
   res.json(sliders);
