@@ -23,5 +23,6 @@ app.get('/sliders', function (req, res) {
   res.json(sliders);
 });
 app.get('/lessons', function (req, res) {
+  let {offset,limit} = req.query;
   res.json(lessons);
 });

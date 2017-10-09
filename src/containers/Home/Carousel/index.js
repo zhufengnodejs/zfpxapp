@@ -25,7 +25,7 @@ export default class Carousel extends Component {
                 </div>
               ))
             }
-          </ReactSwipe>:<div>正在加载</div>
+          </ReactSwipe>:<div className="loading">正在加载</div>
         }
         <div className="dots">
           {

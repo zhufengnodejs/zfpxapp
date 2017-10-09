@@ -10,7 +10,7 @@ module.exports = {
     {
       id: 2,
       url: 'http://www.fullstackjavascript.cn/images/xiaochengxu.png',
-      name: 'Vue.js从理论精讲到项目实战课程',
+      name: '小程序从理论精讲到项目实战课程',
       price: '￥5000.00元'
     },
     {
@@ -20,15 +20,15 @@ module.exports = {
       price: '￥5000.00元'
     },
     {
-      id: 1,
+      id: 4,
       url: 'http://www.fullstackjavascript.cn/images/angular.png',
-      name: 'Vue.js从理论精讲到项目实战课程',
+      name: 'Angular从理论精讲到项目实战课程',
       price: '￥5000.00元'
     },
     {
       id: 5,
       url: 'http://www.fullstackjavascript.cn/images/reactnative.png',
-      name: 'Vue.js从理论精讲到项目实战课程',
+      name: 'ReactNative从理论精讲到项目实战课程',
       price: '￥5000.00元'
     }
   ]
