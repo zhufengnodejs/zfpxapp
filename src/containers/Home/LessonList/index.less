@@ -1,0 +1,40 @@
+.lesson-list{
+  padding:0 9px;
+  background-color: #f8f8f8;
+  li.title{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    line-height: 40px;
+    height:40px;
+  }
+  li.lesson{
+    margin-bottom:16px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:  1px 1px 2px 1px #CCCCCC,-1px -1px 2px 1px #CCCCCC;
+    h3{
+      line-height: 200%;
+      background-color: #ffffff;
+    }
+    h3:nth-child(2){
+     color:#777777;
+    }
+    h3:nth-child(3){
+      color:#ee4e4e;
+    }
+  }
+  .loading{
+    width:100%;
+    color:#000;
+    text-align: center;
+  }
+  .load-more{
+    width:100%;
+    border:none;
+    color:#000;
+  }
+}

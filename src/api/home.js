@@ -6,3 +6,7 @@ import {get,post} from './index';
 export const getSliders = ()=>{
   return get('/sliders');
 }
+
+export const getLessons = ()=>{
+  return get('/lessons');
+}
